@@ -27,7 +27,7 @@ E-commerce website that allows user to login and purchase items, also see their 
 - All the items pruchased will be saved in the history.
 
 
-## Screenshots
+## Gif Walkthrough
 ![](client/public/images/addcart.gif)
 ![](client/public/images/login-payment.gif)
 
