@@ -1,4 +1,3 @@
-
 import {
   UPDATE_PRODUCTS,
   ADD_TO_CART,
@@ -11,7 +10,6 @@ import {
   TOGGLE_CART
 } from "./actions";
 
-
 const initialState = {
   products: [],
   categories: [],
@@ -20,7 +18,7 @@ const initialState = {
   cartOpen: false
 };
 
-export const reducer = (state, action) => {
+export const reducers = (state = initialState, action) => {
   switch (action.type) {
     case UPDATE_PRODUCTS:
       return {
